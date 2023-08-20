@@ -3,29 +3,37 @@ body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: "Nunito",Helvetica,Arial, sans-serif;
+
+body {
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
     color: #222222;
 }
+
 ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 img {
     display: block;
     max-width: 100%;
 }
+
 /*faz com que a borda tenha o pixel que tu definir e não somando com outro elemento que tu definir*/
-*{box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 /*super info*/
-.superinfo-bg{
+.superinfo-bg {
     background: #122ab2;
     color: white;
 }
-.superinfo{
+
+.superinfo {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -33,17 +41,21 @@ img {
     flex-wrap: wrap;
     padding-top: 10px;
 }
-.superinfo p, .superinfo a{
+
+.superinfo p, .superinfo a {
     margin: 0 10px 10px 10px;
 }
-.superinfo a{
+
+.superinfo a {
     color: white;
 }
+
 /*menu*/
-.menu-bg{
+.menu-bg {
     background: #2c70ff;
 }
-.menu{
+
+.menu {
     max-width: 960px;
     margin: 0 auto;
     padding: 15px 0;
@@ -52,28 +64,34 @@ img {
     justify-content: space-between;
     align-items: center;
 }
-.menu a{
+
+.menu a {
     color: white;
 }
-.menu-logo{
+
+.menu-logo {
     font-size: 2.25em;
     font-weight: bold;
     margin: 0 10px;
 }
-.menu-nav ul{
+
+.menu-nav ul {
     display: flex;
     flex-wrap: wrap;
 }
-.menu-nav a{
+
+.menu-nav a {
     font-size: 1.25em;
     display: block;
     padding: 10px;
 }
-.menu-nav a:hover{
+
+.menu-nav a:hover {
     color: #122ab2;
 }
+
 /*introdução*/
-.introducao{
+.introducao {
     font-size: 3em;
     line-height: 1;
     max-width: 960px;
@@ -82,7 +100,7 @@ img {
 }
 
 /*sobre*/
-.sobre{
+.sobre {
     border-top: 2px solid #2c70ff;
     border-bottom: 2px solid #2c70ff;
     max-width: 960px;
@@ -91,21 +109,66 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
-.sobre-info{
+
+.sobre-info {
     flex: 2 1 300px;
     margin: 0 10px;
-    }
-.sobre-info h1{
+}
+
+.sobre-info h1 {
     font-size: 3em;
     margin-bottom: .5em;
 }
-.sobre-info p{
+
+.sobre-info p {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
     color: #7c7c7c;
 }
-.sobre-img{
-flex: 1 1 160px;
+
+.sobre-img {
+    flex: 1 1 160px;
     margin: 0 10px;
+}
+
+/*produtos*/
+.produtos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid #ae81ff;
+}
+
+.pink {
+    border-top: 8px solid #f9265e;
+}
+
+.blue {
+    border-top: 8px solid #66d9eb;
 }
