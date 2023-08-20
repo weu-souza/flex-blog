@@ -14,6 +14,7 @@
     <title>flex blog</title>
 </head>
 <body>
+<!--    info topo da pagina-->
 <div class="superinfo-bg">
     <div class="superinfo">
         <p>Seg / Sex - 08:00 às 18:00</p>
@@ -21,12 +22,16 @@
         <p>Av. Ali Perto, 330, Botafogo - RJ</p>
     </div>
 </div>
+<!--    header-->
 <header class="menu-bg">
+    <!--    Logo -->
     <div class="menu">
         <div class="menu-logo">
             <a href="#">FlexBlog</a>
         </div>
+        <!--    navegação-->
         <nav>
+
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#produtos">Produtos</a></li>
@@ -36,7 +41,153 @@
         </nav>
     </div>
 </header>
+<!--    Titulo-->
 <h1 class="introducao">Novos valores e<br>
     Propriedades de CSS</h1>
+<!--    sobre-->
+<section class="sobre" id="sobre">
+    <!--    texto-->
+    <div class="sobre-info">
+        <h1>Sobre</h1>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão das condições inegavelmente apropriadas objetivos.</p>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão das condições inegavelmente apropriadas objetivos.</p>
+    </div>
+    <!--   imagens-->
+    <div>
+        <div>
+            <img src="img/sobre1.jpg" alt="sobre 1">
+        </div>
+        <div>
+            <img src="img/sobre2.jpg" alt="sobre 2">
+        </div>
+    </div>
+    <!--    Produto-->
+</section>
+<section class="produtos" id="produtos">
+    <h1>Produtos</h1>
+    <!--    Produto item 1-->
+    <div class="produtos-container">
+        <div class="produtos-item purple">
+            <h2>purple</h2>
+            <img src="img/produtos1.jpg" alt="protutos 1">
+        </div>
+        <!--    Produto item 2-->
+        <div class="produtos-item pink">
+            <h2>Pink</h2>
+            <img src="img/produtos2.jpg" alt="protutos 2">
+        </div>
+        <!--    Produto item 3-->
+        <div class="produtos-item blue">
+            <h2>Blue</h2>
+            <img src="img/produtos3.jpg" alt="protutos 3">
+        </div>
+    </div>
+</section>
+<!--    preço-->
+<section class="preco" id="preco">
+    <!--    Plano cobre-->
+    <div class="precoitem">
+        <h2>Cobre</h2>
+        <span> <sup>R$</sup> 19</span>
+
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+        </ul>
+        <a href="#">Comprar</a>
+    </div>
+    <!--    Plano prata -->
+    <div class="precoitem">
+        <h2>Prata</h2>
+        <span> <sup>R$</sup> 39</span>
+
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+            <li>Compra Exclusiva</li>
+        </ul>
+        <a href="#">Comprar</a>
+    </div>
+    <!--    Plano ouro-->
+    <div class="precoitem">
+        <h2>Ouro</h2>
+        <span> <sup>R$</sup> 79</span>
+
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+            <li>Compra Exclusiva</li>
+            <li>Download dos Itens</li>
+        </ul>
+        <a href="#">Comprar</a>
+    </div>
+</section>
+<section class="qualidade" id="qualidade">
+    <!--    qualidade item 1-->
+    <div class="qualidade-item">
+        <h2>Inteligente</h2>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão</p>
+    </div>
+    <!--    qualidade item 2-->
+    <div class="qualidade-item">
+        <h2>Compacto</h2>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão das condições inegavelmente</p>
+    </div>
+    <!--    qualidade item 3-->
+    <div class="qualidade-item">
+        <h2>Econômico</h2>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão </p>
+    </div>
+    <!--    qualidade item 4-->
+    <div class="qualidade-item">
+        <h2>Transparente</h2>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão </p>
+    </div>
+    <!--    qualidade item 5-->
+    <div class="qualidade-item">
+        <h2>Opaco</h2>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão das condições inegavelmente</p>
+    </div>
+    <!--    qualidade item 6-->
+    <div class="qualidade-item">
+        <h2>Sustentável</h2>
+        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+            previsão </p>
+    </div>
+</section>
+<!--newsletter-->
+<section class="newsletter">
+    <!--  informação  -->
+    <div class="newsletter-info">
+        <h1>Newsletter</h1>
+        <p>assine e fique por dentro das novidades</p>
+    </div>
+    <!--    formulario    -->
+    <form>
+        <label>
+            <input type="text" placeholder="seu e-mail">
+        </label>
+        <button> Assinar</button>
+    </form>
+</section>
+<!--footer-->
+<footer class="footer">
+    <p>
+        FlexBlog © Todos os direitos reservados.
+    </p>
+</footer>
 </body>
 </html>
